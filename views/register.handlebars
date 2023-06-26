@@ -1,0 +1,29 @@
+<h1>Register:</h1>
+
+{{#if message}}
+    {{message}}
+    <br>
+    <br>
+{{/if}}
+
+<form action="processReg" method="POST">
+    Username:
+    <br>
+    <input type="text" name="username" required>
+    <br>
+    <br>
+
+    Password:
+    <br>
+    <input type="text" name="password" required>
+    <br>
+    <br>
+
+    Re-enter Password:
+    <br>
+    <input type="text" name="password2" required>
+    <br>
+    <br>
+
+    <button type="submit" name="buttonVar" value="register">Register</button>
+</form>
